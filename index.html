@@ -33,37 +33,46 @@ z6jeX5-_azE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
     <form action="" method="post">
       <h2>Let's do this!</h2>
       <fieldset>
-        <label for="fname">FIRST NAME</label>
-        <input type="text" id="fname" name="fname">
+  <div class="form-col">
+    <div>
+      <label for="fname">FIRST NAME</label>
+      <input type="text" id="fname" name="fname" required>
+    </div>
 
-        <label for="lname">LAST NAME</label>
-        <input type="text" id="lname" name="lname">
+    <div>
+      <label for="email">EMAIL</label>
+      <input type="email" id="email" name="email" required>
+    </div>
 
-        <label for="email">EMAIL</label>
-        <input type="email" id="email" name="email">
+    <div>
+      <label for="password">PASSWORD</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+  </div>
 
-        <label for="number">PHONE NUMBER</label>
-        <input type="tel" id="number" name="number">
+  <div class="form-col">
+    <div class="input-group">
+      <label for="lname">LAST NAME</label>
+      <input type="text" id="lname" name="lname" required>
+    </div>
 
-        <label for="password">PASSWORD</label>
-        <input type="password" id="password" name="password">
+    <div>
+      <label for="number">PHONE NUMBER</label>
+      <input type="tel" id="number" name="number" required>
+    </div>
 
-        <label for="password2">CONFIRM PASSWORD</label>
-        <input type="password" id="password2" name="password2">
-      </fieldset>
+    <div>
+      <label for="password2">CONFIRM PASSWORD</label>
+      <input type="password" id="password2" name="password2" required>
+    </div>
+  </div>
+</fieldset>
 
       <button type="submit">Create Account</button>
       <p class="login-link">Already have an account? <a href="">Log in</a></p>
     </form>
   </div>
-</div>
-
-     
-</div>
-
-
-
-    
-    
+</div>  
+</div> 
   </body>
 </html>
